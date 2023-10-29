@@ -1,0 +1,7 @@
+tri
+devet
+sedum
+osum
+pet
+eden
+C:\Users\User\Desktop\Python\lab13zacas.py

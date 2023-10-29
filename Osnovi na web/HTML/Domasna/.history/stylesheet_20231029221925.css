@@ -1,0 +1,48 @@
+
+body 
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/bbq-pizza-320-1547837615.jpg?crop=0.4444444444444444xw:1xh;center,top&resize=980:*);
+    background-size:auto;
+    z-index: 0;
+    font-size: large;
+    padding-top:100px;
+    padding-left:100px;
+    background-position: center;
+    allign-items:center;
+}
+body::after {
+    content: "";
+    background-image: url('https://images.vexels.com/media/users/3/249551/isolated/preview/58aa71b6794d104248416a4fde06b691-pepperoni-pizza-cut-out.png');
+    position: relative;
+    background-size: contain;
+    z-index: 1;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-size: 20%; 
+    background-repeat: no-repeat;
+    background-position: right;
+    allign-items:center;
+
+}
+table
+{
+    margin: 10;
+    border-width: 10px;
+    border-color:white;
+    border-radius: 10px;
+    border-left: dotted;
+    border-right:dotted;
+}
+th
+{
+    text-decoration:underline;
+    background-color: bisque;
+    font-style: italic;
+}
+td
+{
+    background-color: antiquewhite;
+}

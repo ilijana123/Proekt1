@@ -1,0 +1,71 @@
+
+body {
+    font-family: fantasy;
+    background-image: url(https://t3.ftcdn.net/jpg/05/64/32/70/360_F_564327039_eHOuKCz4S0BZbVbLrdnIj4cSlZimBIe7.jpg);
+    background-size: auto;
+    z-index: 0;
+    font-size: large;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+table {
+    margin: 10px;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+    border-left: dotted;
+    border-right: dotted;
+    box-shadow: 25px 25px 25px dimgrey;
+}
+
+th {
+    text-decoration: underline;
+    font-style: italic;
+    background-color: bisque;
+    text-shadow: -4px 4px 6px dimgrey;
+}
+
+td {
+    border: none;
+    padding: 10px;
+    background-color: bisque;
+}
+
+#parent {
+    text-align: center;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    color: lightcyan;
+    font-size: 500%; 
+    -webkit-text-stroke: 2px black; 
+}
+
+.button:hover {
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    cursor: grab;
+    
+}
+#pom{
+    text-align: center;
+}
+.textarea 
+{
+    border-radius: 10px;
+}
+.textarea:hover
+{
+    cursor: help;
+    background-color:beige;
+
+}
+
+.pole {
+    border: none;
+}

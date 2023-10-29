@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Flowing Text Around Elements</title>
+        <style type="text/css">
+            header { background-color: skyblue;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding:2cm}
+            p { text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin: .5em; }
+            h1 {margin-top: 0px; }
+            .floated {background-color: lightgray;
+                      font-size: 1.5em;
+                      font-family: Arial, Helvetica, sans-serif;
+                      padding: .2em;
+                      margin-left: .5em;
+                      margin-bottom: .5em;
+                      float: right;
+                      text-align: right;
+                      width:50%; }
+            section {border: 1px solid skyblue; }
+        </style>
+    </head>
+    <body>
+        <header><img src="deitel.png" alt="Deitel"/></header>
+        <section>
+            <h1 class="floated">Corporate Training and Authoring</h1>
+            <p>Deitel & Associates, Inc. is an internationally
+                35 recognized corporate training and authoring organization
+                36 specializing in programming languages, Internet/web
+                37 technology, iPhone and Android app development and
+                38 object technology education. The company provides courses
+                39 on Java, C++, C#, Visual Basic, C, Internet and web
+                40 programming, Object Technology and iPhone and Android
+                41 app development.</p>
+        </section>
+        <section>
+            <h1 class="floated">Programming Books and Videos</h1>
+            <p>Through its publishing
+            partnership with Pearson, Deitel & Associates,
+            47 Inc. publishes leading-edge programming textbooks,
+            48 professional books and interactive web-based and DVD
+            49 LiveLessons video courses.</p>
+        </section>
+    </body>
+    </html>

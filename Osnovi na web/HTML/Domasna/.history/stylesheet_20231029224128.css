@@ -1,0 +1,49 @@
+
+body 
+{
+    font-family:fantasy;
+    background-image: url(https://t3.ftcdn.net/jpg/05/64/32/70/360_F_564327039_eHOuKCz4S0BZbVbLrdnIj4cSlZimBIe7.jpg);
+    background-size:auto;
+    z-index: 0;
+    font-size: large;
+    padding-top:100px;
+    padding-left:100px;
+}
+table
+{
+    margin: 10;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+    border-left: dotted;
+    border-right:dotted;
+}
+th
+{
+    text-decoration:underline;
+    background-color: bisque;
+    font-style: italic;
+}
+td
+{
+    background-color: antiquewhite;
+    border: none;
+    padding: 10px;
+}
+#parent
+{
+    text-align: center;
+}
+.button{
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    color:aqua;
+}
+.button:hover{
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: rgb(190, 23, 23);
+    cursor:grab;
+}

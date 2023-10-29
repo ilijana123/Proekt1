@@ -1,0 +1,26 @@
+@media print
+{
+        th {color:black};
+        tbody{ font-size:14pt;
+        color:steelblue;
+        font-family:'Times New Roman';}
+}
+body 
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 150;
+    background-image: url(https://www.gardeners.com/globalassets/articles/gardening/2023content/8078-chive-flowers-edible.jpg);
+    z-index: 0;
+  }
+  th 
+  {
+    background-color:blueviolet;
+    color:honeydew;
+    text-shadow: -4px 4px 6px grey;
+    font size:200%;
+    padding: 10px;
+  }
+  tbody
+  {
+    background-color:rgb(247, 176, 241);
+  }

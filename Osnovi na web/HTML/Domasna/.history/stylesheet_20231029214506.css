@@ -1,0 +1,27 @@
+
+body 
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/bbq-pizza-320-1547837615.jpg?crop=0.4444444444444444xw:1xh;center,top&resize=980:*);
+    z-index: 0;
+    font-size: large;
+}
+table
+{
+    margin: 5;
+    border-width: 5px;
+    border-color:white;
+    border-radius: 10px;
+    border-left: dotted;
+    border-right:dotted;
+}
+th
+{
+    text-decoration:underline;
+    background-color: bisque;
+    font-style: italic;
+}
+td
+{
+    background-color: antiquewhite;
+}

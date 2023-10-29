@@ -1,0 +1,29 @@
+
+body 
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/bbq-pizza-320-1547837615.jpg?crop=0.4444444444444444xw:1xh;center,top&resize=980:*), 
+    url(https://banner2.cleanpng.com/20180215/vzw/kisspng-pizza-cheese-white-clip-art-blank-food-cliparts-5a85c5a10d10e5.0492257915187163210535.jpg);
+    z-index: 0;
+    font-size: large;
+   
+}
+table
+{
+    margin: 10;
+    border-width: 10px;
+    border-color:white;
+    border-radius: 10px;
+    border-left: dotted;
+    border-right:dotted;
+}
+th
+{
+    text-decoration:underline;
+    background-color: bisque;
+    font-style: italic;
+}
+td
+{
+    background-color: antiquewhite;
+}

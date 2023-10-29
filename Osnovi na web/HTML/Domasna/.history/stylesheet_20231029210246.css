@@ -1,0 +1,13 @@
+body 
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 150;
+    background-image: url(https://www.gardeners.com/how-to/edible-flowers/8078.html);
+    background-color:beige;
+    z-index: 0;
+  }
+  th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+  }

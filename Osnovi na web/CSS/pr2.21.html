@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Animations</title>
+        <style type="text/css">
+            img
+            {
+                position:relative;
+                -webkit-animation: movingImage linear 10s 1s 2 alternate;
+                -moz-animation: movingImage linear 10s 1s 2 alternate;
+                animation: movingImage linear 10s 2 1s alternate;
+            }
+            @-webkit-keyframes movingImage
+            {
+                0% {opacity:0; left: 50px; top: 0px;} 
+                25% {opacity: 1;left: 0px; top:5 0px;}
+                50% {opacity: 0;left: 50px; top: 100px;}
+                75% {opacity: 1;left: 100px; top: 50px;}
+                100% {opacity: 0;left: 50px; top: 0px;}
+            }
+            @-moz-keyframes movingImage
+            {
+                0% {opacity:0; left: 50px; top: 0px;} 
+                25% {opacity: 1;left: 0px; top: 50px;}
+                50% {opacity: 0;left: 50px; top: 100px;}
+                75% {opacity: 1;left: 100px; top: 50px;}
+                100% {opacity: 0;left: 50px; top: 0px;}
+            }
+       
+        </style>
+    </head>
+    <body>
+       <img src="deitel.png" width="138" height=""180" alt="Deitel">
+       <div></div>
+    </body>
+</html>
+     animation-name: movingImage
+            animation-timing-function: linear;
+            animation-duration: 10s;
+            animation-delay: 1s;
+            animation-iteration-count: 2;
+            animation-direction: alternate;
