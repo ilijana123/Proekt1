@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Domasna1</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <form method="post" action="http://www.deitel.com">
+    <table border="1">
+    <thead>
+     <tr>
+        <th colspan="4"> 
+            <strong>Pizza Shop 2.0</strong>
+        </th> 
+      </tr>  
+    </thead>
+    <tbody>
+        <tr>
+            <td>Name</td>
+            <td>
+            <input class="pole" name="name" type=""text" size="20" maxlength="30" style="border-right: none; border-bottom: none;">
+            </td>
+        </tr>
+        <tr>
+            
+            <td rowspan="4">Pizza Topping </td>
+            <td>
+              <tr>
+                <td colspan="4" style="border: none;">
+                 <input name="topping" type="radio" value="supreme"
+                 <label>Supreme</label>
+                </td>
+             </tr> 
+             
+            <tr>
+                <td  colspan="4" style="border: none;">
+                <input name="topping" type="radio" value="vegeterian"
+                <label>Vegetarian
+                </label>
+                </td>
+                </tr>
+                <tr>
+                <td  colspan="4" style="border: none;">
+                <input name="topping" type="radio" value="hawaiian"
+                <label>Hawaiian
+                </label>
+                </td>
+               </tr>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Pizza Sauce     
+            </td>
+            <td colspan="4"> 
+                <select name="Pizza Sauce">       
+                <option selected>Tomato</option>
+                <option>Alfredo</option>
+                <option>Buffalo</option>
+                <option>Pesto</option>
+            </select>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Optional Extras   
+            </td>
+            <td colspan="4">
+                <input name="extra cheese" type="checkbox">
+                <label>Extra Cheese 
+                </label>
+                <input name="gluten free base" type="checkbox">
+                <label>Gluten Free Base &nbsp; &nbsp; &nbsp;
+                </label>     
+            </td>
+        </tr>
+        <tr>
+          <td id="pom" colspan="50">
+            <label>Delivery Instructions: <br>
+                <textarea class="textarea" name="" rows="6" cols="50"></textarea>
+                </label>
+           </td>
+        </tr> 
+        <tr id="parent"><td><input class="button" type="submit" value="Send my Order"</td></tr>
+    </tbody>
+</table>
+</form>
+</body>
+</html>
