@@ -1,0 +1,19 @@
+h1  {  
+     font-family: fantasy;
+        color:darksalmon;
+        border-color: indianred;
+        border-width: 5px;
+        -webkit-border-image: fill;
+        text-shadow: -4px 4px 6px dimgrey;
+
+        
+    }
+body{
+        background-image:  url("background.jpg");
+        
+        background-size: 100%;
+        background-repeat:no-repeat;
+    }
+  ul{
+        font-size: large;
+    }

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Online shop</title>
+    <link rel="stylesheet" type="text/css" href="1.css">
+    <script src="script.js"></script>
+    </head>
+
+    <body>
+    <header>
+       <h1>Welcome to Ilijana's Online Shop</h1> 
+       <!--Quote-->
+    <blackguote>
+       <Strong> "Elegance is refusal." </Strong>
+    </blackguote>
+    </header>
+   
+    <nav> 
+ <div class="social-call">
+     <div class="social">
+         <a href="#"><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i></a>
+         <a href="#"><i class="fab fa-youtube"></i></a>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+</div>
+<div class="contact">
+    <div class="contact-heading">
+        <strong>Contact Us</strong>
+        <p>Feel free to reach out to us.</p>
+    </div>
+    <div class="contact-details">
+        <!-- Contact details go here -->
+</div>
+</div>
+ </div>
+ <!--Navigation-->
+ 
+ <nav> 
+    <div class="social-call">
+        <!-- Social and Contact Details -->
+    </div>
+    <!-- Navigation -->
+    <div class="navigation">
+        <a href="#" class="logo"><img src="logo.png"></a>
+        <div class="toggle"></div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li id="shopMenu">
+                <a href="#">Shop</a>
+                <ul id="categoryMenu" class="hidden">
+                    <li><a href="#clothes-section">Clothes</a></li>
+                    <li><a href="#fashion-accessories-section">Fashion Accessories</a></li>
+                    <li><a href="#shoes-section">Shoes</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Men</a>
+                <span class="sale-lable">Sale</span>
+            </li>
+            <li><a href="#contact-section">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <!-- Add id to Log In link -->
+            <li><a href="login.html" id="loginLink">Log In</a></li>
+        </ul>
+    </nav>
+ <div class="search-bar">
+    <div class="search-input">
+    <input type="text" placeholder="Search For Product" name="search" />
+    <a href="javascript:void(0);" class="search-cancel">
+        <i class="fas fa-times"></i>
+    </a>
+</div>
+</div>
+<!--Log-in and Sign-up form-->
+ <div class="form">
+    <div class="login-form">
+        <a href="javascript:void(0);" class="form-cancel">
+            <i class="fas fa-times"></i>
+        </a>
+        <strong>Log In</strong>
+        <form>
+            <p><input type="email" name="email" placeholder="Example@gmail.com" required/></p>
+            <p><input type="password" name="password" placeholder="Password" required/></p>
+            <p><input type="submit" value="Log In"/></p>
+        </form>
+        <div class="form-btns">
+            <p><a href="#" class="forget">Forget Your Password?</a></p>
+            <p><a href="javascript:void(0);" class="sign-up-btn">Create Account</a></p>
+        </div>
+    </div>
+        <div class="sign-up-form">
+        <a href="javascript:void(0);" class="form-cancel">
+            <i class="fas fa-times"></i>
+        </a>
+            <strong>Sign Up</strong>
+            <form>
+                <p><input type="text" name="fullname" placeholder="Full Name" required/></p>
+                <p><input type="email" name="email" placeholder="Example@gmail.com" required/></p>
+                <p><input type="password" name="password" placeholder="Password" required/></p>
+                <p><input type="submit" value="Sign Up"/></p>
+            </form>
+            <div class="form-btns">
+                <a href="javascript:void(0);" class="already-account">
+                    Already Have Account?</a>
+
+            </div>
+        </div>
+</div>
+    <footer>
+        <span class="copyright">
+            &copy All rights for this page are reserved.
+        </span>
+        <div class="subscribe">
+            <form>
+            <input type="email" placeholder="Example@gmail.com" required/>
+            <input type="submit" value="Subscribe">
+            </form>
+        </div>
+    </footer>
+    </body>
+</html>

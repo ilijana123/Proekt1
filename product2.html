@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <!-- Vue JS -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+<!-- jQuery -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src="script.js"></script>
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="html.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="html1.html" id="loginLink">Log In</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="s4.avif" width="100%" id="MainImg" alt=""  onclick="zoom(this)">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="s4.avif" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="s41.avif" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="s42.avif" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="s43.avif" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+    
+        <div class="single-pro-details" id="product0" data-name="Women's Fashion Coat" data-price="150.00">
+            <h6>Home / Shoes</h6>
+            <h4>Women's Fashion Shoes</h4>
+            <h2>$150.00</h2>
+            <select id="sizeSelect">
+                <option>Select Size</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+                <option value="Small">Small</option>
+                <option value="Large">Large</option>
+            </select>
+            <input type="number" id="quantityInput" value="1">
+            <button class="normal" onclick="addToCart('1', 'Women\'s Fashion Shoes', 150.00, document.getElementById('sizeSelect').value)">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>Lace-up combat ankle boots made from smooth leather, featuring a Medusa emblem.</span>
+         <body>
+            <section id="app">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="comment">
+                    <p v-for="items in item" v-text="items"></p>
+                      </div><!--End Comment-->
+                      </div><!--End col -->
+                      </div><!-- End row -->
+                  <div class="row">
+                    <div class="col-6">
+                  <textarea type="text" class="input" placeholder="Write a comment" v-model="newItem" @keyup.enter="addItem()"></textarea>
+                      <button v-on:click="addItem()" class='primaryContained float-right' type="submit">Add Comment</button>
+                    </div><!-- End col -->
+                  </div><!--End Row -->
+                </div><!--End Container -->
+              </section><!-- end App -->
+              <button id="btn">Like</button> <span id="displayB">0</span>
+              <script type="text/javascript">
+                let count = 0;
+                let btn = document.getElementById("btn");
+                let disp = document.getElementById("displayB");
+                 
+                btn.onclick = function () {
+                            count++;
+                disp.innerHTML = count;
+                }
+            </script>
+        <div style="display: inline-block;">
+        </body>
+    </div>
+       
+      
+        </div>
+
+    </section>
+     <section id="product1" class="section-p1">
+        <h4>Featured Products</h4>
+        <h5>Winter Collection New Modern Design<h5>
+        <div class="pro-container">
+            <div class="pro">
+                <a href="product.html">
+                <img src="w1.avif" alt="">
+                <div class="des">
+                    <span>Versace</span>
+                    <h5>BAROCCO REVERSIBLE BOMBER JACKET</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                </a>
+            </div>
+            <div class="pro">
+                <a href="product.html">
+                <img src="w2.avif" alt="">
+                <div class="des">
+                    <span>Versace</span>
+                    <h5>WOOL SINGLE-BREASTED LONG COAT</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$115</h4>
+                </div>
+               </a>
+            </div>
+            <div class="pro">
+                <img src="w3.avif" alt="">
+                <div class="des">
+                    <span>Versace</span>
+                    <h5>Versace Allover Towel Hoodie</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$99</h4>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="w4.avif" alt="">
+                <div class="des">
+                    <span>Versace</span>
+                    <h5>Standard Fit Jeans</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$200</h4>
+                </div>
+            </div>
+    </section>
+
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 562 Wellington Road, Street 32, San Francisco</p>
+            <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways </p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2023, Ilijana's Online Shop</p>
+        </div>
+    </footer>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick = function() {
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function() {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function() {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function() {
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

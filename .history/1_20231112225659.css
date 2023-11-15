@@ -1,0 +1,18 @@
+h1  {  
+     font-family: fantasy;
+        color:darksalmon;
+        text-shadow: -4px 4px 6px dimgrey;
+        position:fixed;
+        margin-left: 50%;
+
+        
+    }
+body{
+        background-image:  url("background.jpg");
+        
+        background-size: 100%;
+        background-repeat:no-repeat;
+    }
+  ul{
+        font-size: large;
+    }

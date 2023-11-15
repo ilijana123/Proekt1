@@ -1,0 +1,59 @@
+h1  {  
+     font-family: fantasy;
+        color:rgb(145, 133, 151);
+        position:relative;
+        margin-left: 30%;   
+        text-decoration:double;
+        text-decoration-color: aliceblue;
+    }
+    body
+    {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    nav 
+    {
+        background-color:rgb(246, 0, 197);
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    nav ul
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row; /* Set the direction to column */
+        
+    }
+    
+    nav ul li 
+    {
+        display: block; /* Set the display property to block */
+        margin-bottom: 50px;
+        margin-right: 150px;
+        margin-left:150px;
+    }
+    section {
+        padding: 20px;
+        margin: 20px 0;
+    }
+    nav a {
+        text-decoration:solid;
+        color:bisque;
+        font-weight: bold;
+
+    }
+    nav a:hover {
+        color: #555;
+    }
+    
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    

@@ -1,0 +1,11 @@
+h1  {   font-family: fantasy;
+        color: antiquewhite;
+    }
+body{
+        background-image:  url("background.jpg");
+        text-shadow: -4px 4px 6px dimgrey; 
+        background-repeat:no-repeat;
+    }
+  ul{
+        font-size: large;
+    }
